@@ -8,7 +8,7 @@ $password = "";
 $nama_database = "";
 
 // inisialisasi mysql
-// (DISI)
+$db = mysqli_connect($server, $user, $password, $nama_database);
 
 // pengecekan apakah database tersambung atau tidak
 if(!$db){
